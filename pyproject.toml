@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual"
+version = "1.0.0"
+description = "A graphical and compact library for the Numworks calculator and its emulator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+authors = [
+  { name = "Archange", email = "archange_paradise@proton.me" }
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "kandinsky==2.7.2",
+  "ion-numworks==2.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/Archange-py/Visual"
+Repository = "https://github.com/Archange-py/Visual"
+Numworks = "https://my.numworks.com/python/archange/visual"
+
+[project.scripts]
+visual = "visual.visual:main"
+
+[project.optional-dependencies]
+dev = ["pytest"]

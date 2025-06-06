@@ -1,0 +1,4 @@
+include TODO.md
+include README.md
+include LICENSE.md
+recursive-include resources *

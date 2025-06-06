@@ -1,2 +1,10 @@
-__pycache__
-__pycache__/*
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.venv/
+.vscode/
+.github/
+
+dist/
+build/

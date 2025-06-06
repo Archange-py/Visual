@@ -1,0 +1,2 @@
+kandinsky==2.7.2
+ion-numworks==2.1
