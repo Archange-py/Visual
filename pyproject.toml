@@ -32,7 +32,7 @@ Numworks = "https://my.numworks.com/python/archange/visual"
 Library = "https://pypi.org/project/visualcore/"
 
 [project.scripts]
-visual = "visual.visual:main"
+visualcore = "visualcore.visual:main"
 
 [project.optional-dependencies]
 dev = ["pytest"]
