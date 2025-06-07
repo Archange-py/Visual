@@ -1,6 +1,4 @@
-<p align="center" width="100%">
-<img src=".\resources\logo\logo_visual_flag.png" alt="Visual">
-</p>
+![Visual Banner](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/resources/logo/logo_visual_flag.png)
 
 # Visual
 
@@ -15,9 +13,9 @@
 [![Tests](https://github.com/Archange-py/Visual/actions/workflows/tests.yml/badge.svg)](https://github.com/Archange-py/Visual/actions/workflows/tests.yml)
 [![Build](https://github.com/Archange-py/Visual/actions/workflows/build.yml/badge.svg)](https://github.com/Archange-py/Visual/actions/workflows/build.yml)
 
-[![PyPI Version](https://img.shields.io/pypi/v/visual.svg)](https://pypi.org/project/visual/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/visual.svg)](https://pypi.org/project/visual/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/visual.svg)](https://pypi.org/project/visual/)
+[![PyPI Version](https://img.shields.io/pypi/v/visualcore.svg)](https://pypi.org/project/visualcore/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/visualcore.svg)](https://pypi.org/project/visualcore/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/visualcore.svg)](https://pypi.org/project/visualcore/)
 
 
 ###
