@@ -29,6 +29,7 @@ dependencies = [
 Homepage = "https://github.com/Archange-py/Visual"
 Repository = "https://github.com/Archange-py/Visual"
 Numworks = "https://my.numworks.com/python/archange/visual"
+Library = "https://pypi.org/project/visualcore/"
 
 [project.scripts]
 visual = "visual.visual:main"

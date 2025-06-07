@@ -47,11 +47,11 @@ To install it on the Numworks, we have the choice :
 2. You just need to copy and paste the code from the *[visual](.\src\visual\visual.py)* file into a new script on your Numworks account. Then upload it to your calculator. 
 
 > Here's an example of what you can do with the calculator, using the [example file](.\src\visual\examples\introduction\visuel_first_example.py). Click [here](https://my.numworks.com/python/archange/example_visual) to see it on the Numworks website.  
-> ![](src\visual\examples\introduction\pictures\example_visuel.png)
+> <img src="src\visual\examples\introduction\pictures\example_visuel.png">
 
 
 > Here's another example of what you can do with the functions provided by Visual.
-> <img src="src/visual/examples/functions/pictures/examples.gif" alt="Visual">
+> <img src="src/visual/examples/functions/pictures/examples.gif">
 
 If you have any questions, go to the [FAQs section](#faqs), or explore all the examples [here](#examples) after visiting this [page](#how-to-use-it) to install **kandinsky** and **ion** on your computer !  
 
