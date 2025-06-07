@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "visualcore"
 version = "1.0.0"
 description = "A graphical and compact library for the Numworks calculator and its emulator"
+keywords = ["visual", "Numworks", "algorithm", "calculator", "python"]
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
