@@ -8,7 +8,7 @@ version = "1.0.1"
 description = "A graphical and compact library for the Numworks calculator and its emulator"
 keywords = ["visual", "Numworks", "algorithm", "calculator", "python"]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = {text = "MIT"}
 
 authors = [
