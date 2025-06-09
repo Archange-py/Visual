@@ -41,10 +41,6 @@ To install it on the Numworks, we have the choice :
 
 2. You just need to copy and paste the code from the *[visual](.\src\visual\visual.py)* file into a new script on your Numworks account. Then upload it to your calculator. 
 
-> Here's an example of what you can do with the calculator, using the [example file](.\src\visual\examples\introduction\visuel_first_example.py). Click [here](https://my.numworks.com/python/archange/example_visual) to see it on the Numworks website.  
-
-![example_visuel.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/introduction/pictures/example_visuel.png)
-
 > Here's another example of what you can do with the functions provided by Visual.  
 
 ![example.gif](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/examples.gif)
@@ -92,7 +88,56 @@ First of all, after you're on your computer, you need to start by importing it a
 ```Python
 from visual import *
 ``` 
-After that, you need to understand how this script is organized, with points and vectors for example, and how it works, with its functions. For this purpose, you have at your disposal one *Jupiter Notebook* containing everything that can be shown in writing for the file [visual_example](src\visual\examples\functions\notebooks\visuel_example.ipynb). Then there are plenty of example files for everything to do with graphics. You can see the results with the following images :
+After that, you need to understand how this script is organized, with points and vectors for example, and how it works, with its functions. For this purpose, you have at your disposal one *Jupiter Notebook* containing everything that can be shown in writing for the file [visual_example](src\visual\examples\functions\notebooks\visual_example.ipynb).
+
+> Here's an example of what you can do with the calculator, using the compact [example file](.\src\visual\examples\introduction\example.py). Click [here](https://my.numworks.com/python/archange/example_visual) to see it on the Numworks website.  
+
+```Python
+from visual import *
+
+A = Point( 20,  20, 'A')
+B = Point(160, 111, 'B')
+C = Point( 20, 202, 'C')
+D = Point(300,  20, 'D')
+E = Point(300, 202, 'E')
+
+F = milieu(D, E)
+F.round()
+F.name = 'F'
+
+V = Vector(A, B, name='V')
+W = Vector(B, C, name='W')
+Y = Vector(F, D, name='Y')
+X = Vector(F, E, name='X')
+
+U = V + W
+U.name = 'U'
+
+def example():
+  draw_points([A, B, C, D, E, F], 'r', style='.')
+  draw_rectangle(A, E)
+  draw_croix(B, 320)
+  bezier_curve([A, B, C, E], 'orange')
+  bezier_curve([E, B, D, A], 'orange')
+  draw_circle(B, 50, 'r')
+  fill_circle(B, 10, 'r')
+  draw_droite(D, E, 'cyan', "d'")
+  draw_droite(D, B, 'cyan', "d''")
+  draw_droite(E, B, 'cyan', "d'''")
+  draw_vector(A, V, 'g')
+  draw_vector(B, W, 'g')
+  draw_vector(A, U, 'g')
+  draw_arrows([(F, D)], 'b', fill=True)
+  draw_arrows([(F, E)], 'b', fill=True)
+  draw_polygone(6, 50, B)
+  fill_polygone(6, 50, B, 'yellow', alpha=0.5)
+
+example()
+``` 
+
+![example_visual.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/introduction/pictures/example_visual.png)
+
+Then there are plenty of example files for everything to do with graphics. You can see the results with the following images :
 
 * **Function interpolation** : [example_interpolation.py](src\visual\examples\functions\example_interpolation.py)  
 

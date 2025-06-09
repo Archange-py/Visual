@@ -4,7 +4,6 @@ __pycache__/
 
 .venv/
 .vscode/
-.github/
 
 dist/
 build/
