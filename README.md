@@ -40,7 +40,7 @@ I recommend that you test the example files on your own computer, as you can dra
 To install it on the Numworks, we have the choice :  
 1. Just follow this link to the [Numworks website](https://my.numworks.com/python/archange/visual)  
 
-2. You just need to copy and paste the code from the *[visual](.\src\visual\visual.py)* file into a new script on your Numworks account. Then upload it to your calculator. 
+2. You just need to copy and paste the code from the *[visual](./src/visual/visual.py)* file into a new script on your Numworks account. Then upload it to your calculator. 
 
 > Here's another example of what you can do with the functions provided by Visual.  
 
@@ -89,9 +89,9 @@ First of all, after you're on your computer, you need to start by importing it a
 ```Python
 from visual import *
 ``` 
-After that, you need to understand how this script is organized, with points and vectors for example, and how it works, with its functions. For this purpose, you have at your disposal one *Jupiter Notebook* containing everything that can be shown in writing for the file [visual_example](src\visual\examples\functions\notebooks\visual_example.ipynb).
+After that, you need to understand how this script is organized, with points and vectors for example, and how it works, with its functions. For this purpose, you have at your disposal one *Jupiter Notebook* containing everything that can be shown in writing for the file [visual_example](src/visual/examples/functions/notebooks/visual_example.ipynb).
 
-> Here's an example of what you can do with the calculator, using the compact [example file](.\src\visual\examples\introduction\example.py). Click [here](https://my.numworks.com/python/archange/example_visual) to see it on the Numworks website.  
+> Here's an example of what you can do with the calculator, using the compact [example file](./src/visual/examples/introduction/example.py). Click [here](https://my.numworks.com/python/archange/example_visual) to see it on the Numworks website.  
 
 ```Python
 from visual import *
@@ -140,17 +140,17 @@ example()
 
 Then there are plenty of example files for everything to do with graphics. You can see the results with the following images :
 
-* **Function interpolation** : [example_interpolation.py](src\visual\examples\functions\example_interpolation.py)  
+* **Function interpolation** : [example_interpolation.py](src/visual/examples/functions/example_interpolation.py)  
 
 | Example 1 | Example 2 | Example 3 | Example 4 |
 |-----------|-----------|-----------|-----------|
 | ![example_interpolate_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_interpolate_1.png) | ![example_interpolate_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_interpolate_2.png) | ![example_interpolate_3.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_interpolate_3.png) | ![example_interpolate_4.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_interpolate_4.png) |
 
-* **Function expend** : [example_vectoriel_geometry](src\visual\examples\functions\example_vectoriel_geometry.py)
+* **Function expend** : [example_vectoriel_geometry](src/visual/examples/functions/example_vectoriel_geometry.py)
 
-* **Function findWithPoint** : [example_findwithpoint.py](src\visual\examples\functions\example_findwithpoint.py)
+* **Function findWithPoint** : [example_findwithpoint.py](src/visual/examples/functions/example_findwithpoint.py)
 
-* **Function alpha_pixel and argument "alpha" in draw function** : [example_alpha_layer.py](src\visual\examples\functions\example_alpha_layer.py)
+* **Function alpha_pixel and argument "alpha" in draw function** : [example_alpha_layer.py](src/visual/examples/functions/example_alpha_layer.py)
 
 > We have to take a number less or equal to 0, and greater or equal to 1 for the alpha parameter
 
@@ -159,81 +159,81 @@ Then there are plenty of example files for everything to do with graphics. You c
 |-----------|-----------|
 | ![example_alpha_layer_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_alpha_layer_1.png) | ![example_alpha_layer_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_alpha_layer_2.png) |
 
-* **Function scatter** : [example_scatter.py](src\visual\examples\functions\example_scatter.py)
+* **Function scatter** : [example_scatter.py](src/visual/examples/functions/example_scatter.py)
 
 | Example 1 | Example 2 | Example 3 |
 |-----------|-----------|-----------|
 | ![example_scatter_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_scatter_1.png) | ![example_scatter_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_scatter_2.png) | ![example_scatter_3.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_scatter_3.png) |
 
-* **Function plot** : [example_plot.py](src\visual\examples\functions\example_plot.py)
+* **Function plot** : [example_plot.py](src/visual/examples/functions/example_plot.py)
 
 | Example 1 | Example 2 | Example 3 |
 |-----------|-----------|-----------|
 | ![example_plot_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_plot_1.png) | ![example_plot_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_plot_2.png) | ![example_plot_3.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_plot_3.png) |
 
-* **Function set_lines** : [example_lines.py](src\visual\examples\functions\example_lines.py)
+* **Function set_lines** : [example_lines.py](src/visual/examples/functions/example_lines.py)
 
 | Example |
 |---------|
 | ![example_lines.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_lines.png) |
 
-* **Function draw_points** : [example_point.py](src\visual\examples\functions\example_point.py)
+* **Function draw_points** : [example_point.py](src/visual/examples/functions/example_point.py)
 
 | Example |
 |---------|
 | ![example_points.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_points.png) |
 
-* **Function draw_croix** : [example_croix.py](src\visual\examples\functions\example_croix.py)
+* **Function draw_croix** : [example_croix.py](src/visual/examples/functions/example_croix.py)
 
 | Example |
 |---------|
 | ![example_croix.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_croix.png) |
 
-* **Function draw_arrows** : [example_arrows.py](src\visual\examples\functions\example_arrows.py)
+* **Function draw_arrows** : [example_arrows.py](src/visual/examples/functions/example_arrows.py)
 
 | Example |
 |---------|
 | ![example_arrows.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_arrows.png) |
 
-* **Function draw_vector** : [example_vectors.py](src\visual\examples\functions\example_vectors.py)
+* **Function draw_vector** : [example_vectors.py](src/visual/examples/functions/example_vectors.py)
 
 | Example |
 |---------|
 | ![example_vectors.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_vectors.png) |
 
-* **Function draw_droite** : [example_droite.py](src\visual\examples\functions\example_droite.py)
+* **Function draw_droite** : [example_droite.py](src/visual/examples/functions/example_droite.py)
 
 | Example 1 | Example 2 |
 |-----------|-----------|
 | ![example_droite_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_droite_1.png) | ![example_droite_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_droite_2.png) |
 
-* **Function fill_triangles** : [example_triangle.py](src\visual\examples\functions\example_triangle.py)
+* **Function fill_triangles** : [example_triangle.py](src/visual/examples/functions/example_triangle.py)
 
 | Example |
 |---------|
 | ![example_triangles.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_triangles.png) |
 
-* **Function draw_polygone and fill_polygone** : [example_polygone.py](src\visual\examples\functions\example_polygone.py)
+* **Function draw_polygone and fill_polygone** : [example_polygone.py](src/visual/examples/functions/example_polygone.py)
 
 | Example |
 |---------|
 | ![example_polygones.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_polygones.png) |
 
-* **Function draw_circle and fill_circle** : [example_cercle.py](src\visual\examples\functions\example_cercle.py)
+* **Function draw_circle and fill_circle** : [example_cercle.py](src/visual/examples/functions/example_cercle.py)
 
 | Example |
 |---------|
 | ![example_cercle.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_cercle.png) |
 
-* **Function bezier curve** : [example_bezier_curve](src\visual\examples\functions\example_bezier_curve.py)
+* **Function bezier curve** : [example_bezier_curve](src/visual/examples/functions/example_bezier_curve.py)
 
 | Example 1 | Example 2 |
 |-----------|-----------|
 | ![example_bezier_curve.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_bezier_curve.png) | ![example_bezier_curve.gif](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/examples/functions/pictures/example_bezier_curve.gif) |
 
 ## Tree Fractals
-The link to the example script: [example_fractal.py](src\visual\examples\fractal\example_fractal.py)  
-And the source script: [fractal.py](src\visual\examples\fractal\fractal.py)  
+The link to the example script: [example_fractal.py](src/visual/examples/fractal/example_fractal.py)  
+And the source script: [fractal.py](src/visual/examples/fractal/fractal.py)  
 
 ***
 
@@ -241,7 +241,7 @@ And the source script: [fractal.py](src\visual\examples\fractal\fractal.py)
 
 ***
 
-> Don't forget to install the lines extension [here](src\visual\extensions\lines\ext_lines.py) in your computer !
+> Don't forget to install the lines extension [here](src/visual/extensions/lines/ext_lines.py) in your computer !
 
 | Basic Tree | Palm Tree |
 |------------|-----------|
@@ -285,19 +285,19 @@ Here are some extensions designed to work with the calculator. However, the late
 
 > You need to copy and paste the code from the extension files into a new file created on the Numworks website.
 
-* **Extension Lines** : [lines_example.py](src\visual\extensions\lines\lines_example.py)
+* **Extension Lines** : [lines_example.py](src/visual/extensions/lines/lines_example.py)
 
 | Example |
 |---------|
 | ![example_lines.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/extensions/lines/pictures/example_lines.png) |
 
-* **Extension Ellipses** : [example_ellipse.py](src\visual\extensions\ellipses\ellipses_example.py)
+* **Extension Ellipses** : [example_ellipse.py](src/visual/extensions/ellipses/ellipses_example.py)
 
 | Example 1 | Example 2 |
 |-----------|-----------|
 | ![example_ellipses_1.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/extensions/ellipses/pictures/example_ellipses_1.png) | ![example_ellipses_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/extensions/ellipses/pictures/example_ellipses_2.png) |
 
-* **Extension Turtle** : [turtle_example.py](src\visual\extensions\turtle\turtle_example.py)
+* **Extension Turtle** : [turtle_example.py](src/visual/extensions/turtle/turtle_example.py)
 
 
 > The turtle extension has both a compact and a non-compact file for use on the computer.
@@ -308,7 +308,7 @@ Here are some extensions designed to work with the calculator. However, the late
 |-----------|-----------|
 | ![example_2.png](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/extensions/turtle/pictures/example_2.png) | ![example_turtle.gif](https://raw.githubusercontent.com/Archange-py/Visual/refs/heads/main/src/visual/extensions/turtle/pictures/example_turtle.gif) |
 
-* **Extension Grapher** : [grapher_example.ipynb](src\visual\extensions\grapher\notebooks\grapher_example.ipynb)  
+* **Extension Grapher** : [grapher_example.ipynb](src/visual/extensions/grapher/notebooks/grapher_example.ipynb)  
 
 <table>
     <thead>
