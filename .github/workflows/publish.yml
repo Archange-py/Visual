@@ -5,6 +5,9 @@ on:
     tags:
       - "v*.*.*"
 
+permissions:
+  id-token: write
+
 jobs:
   test:
     name: Run Tests on Multiple OS
@@ -37,6 +40,10 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
+
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
     - name: Checkout code
