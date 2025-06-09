@@ -8,6 +8,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Archange-py/Visual.svg)](https://github.com/Archange-py/Visual/pulls)
 [![GitHub License](https://img.shields.io/github/license/Archange-py/Visual.svg)](https://github.com/Archange-py/Visual/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Archange-py/Visual.svg)](https://github.com/Archange-py/Visual/commits/main)
+![Tests](https://github.com/Archange-py/Visual/actions/workflows/python-tests.yml/badge.svg)
 ![Visiteurs](https://visitor-badge.laobi.icu/badge?page_id=Archange-py.Visual)
 
 [![PyPI Version](https://img.shields.io/pypi/v/visualcore.svg)](https://pypi.org/project/visualcore/)
