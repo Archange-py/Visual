@@ -342,9 +342,12 @@ def draw_rectangle(P1, P4, color="0"):
 
 
 def fill_rectangle(P1, P4, color="0", alpha=1):
-    for x in range(P4.x - P1.x if P4.x > P1.x else P1.x - P4.x):
-        for y in range(P4.y - P1.y if P4.y > P1.y else P1.y - P4.y):
-            alpha_pixel(P1.x + x, P1.y + y, color, alpha)
+    for x, y in [
+        (x, y)
+        for x in range(P4.x - P1.x if P4.x > P1.x else P1.x - P4.x)
+        for y in range(P4.y - P1.y if P4.y > P1.y else P1.y - P4.y)
+    ]:
+        alpha_pixel(P1.x + x, P1.y + y, color, alpha)
 
 
 def draw_circle(center, rayon, color="0"):
