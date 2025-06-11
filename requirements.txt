@@ -1,2 +1,3 @@
 kandinsky==2.7.2
 ion-numworks==2.1
+python-minifier==2.11.3
