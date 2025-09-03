@@ -64,7 +64,9 @@ def fill_polygone(n,rayon,coord,color='0',c_map=None,alpha=1):
   for p,c in zip(connect_points(points,True),[color for _ in range(len(points))] if not isinstance(c_map,list) else c_map):fill_triangles([([coord,p[0],p[1]])],c,alpha)
 def draw_rectangle(P1,P4,color='0'):fill_rect(P1.x,P1.y,P4.x-P1.x,1,color);fill_rect(P4.x,P1.y,1,P4.y-P1.y+1,color);fill_rect(P1.x,P4.y,P4.x-P1.x,1,color);fill_rect(P1.x,P1.y,1,P4.y-P1.y,color)
 def fill_rectangle(P1,P4,color='0',alpha=1):
-  for x,y in [(x,y) for x in range(P4.x-P1.x if P4.x>P1.x else P1.x-P4.x) for y in range(P4.y-P1.y if P4.y>P1.y else P1.y-P4.y)]:alpha_pixel(P1.x+x,P1.y+y,color,alpha)
+  for x in range(P4.x-P1.x if P4.x>P1.x else P1.x-P4.x):
+    for y in range(P4.y-P1.y if P4.y>P1.y else P1.y-P4.y):
+      alpha_pixel(P1.x+x,P1.y+y,color,alpha)
 def draw_circle(center,rayon,color='0'):
   for x in range(-abs(rayon),abs(rayon)):
     l=round((abs(rayon)**2-x**2)**0.5)
